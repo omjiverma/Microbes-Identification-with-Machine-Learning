@@ -44,24 +44,24 @@ Bacterial antibiotic resistance is becoming a significant health threat, and rap
 
 So we will train a supervised machine learning classification model to identify microbes from Generalized Segmentation Algorithm (GSA) Data
 
-##🔎 Objective
+## 🔎 Objective
 Identify the ten different micro-forms of life from Generalized Segmentation Algorithm (GSA) Data
 
 ## 💾 Data Summary
 
-Solidity: It is the ratio of area of an object to the area of a convex hull of the object. Computed as Area/ConvexArea.
-Eccentricity: The eccentricity is the ratio of length of major to minor axis of an object.
-EquivDiameter: Diameter of a circle with the same area as the region.
-Extrema: Extrema points in the region. The format of the vector is [top-left top-right right-top right-bottom bottom-right bottom-left left-bottom left-top].
-Filled Area: Number of on pixels in FilledImage, returned as a scalar.
-Extent: Ratio of the pixel area of a region with respect to the bounding box area of an object.
-Orientation: The overall direction of the shape. The value ranges from -90 degrees to 90 degrees.
-Euler number: Number of objects in the region minus the number of holes in those objects.
-Bounding box: Position and size of the smallest box (rectangle) which bounds the object.
-Convex hull: Smallest convex shape/polygon that contains the object.
-Major axis: The major axis is the endpoints of the longest line that can be drawn through the object. Length (in pixels) of the major axis is the largest dimension of the object.
-Minor axis: The axis perpendicular to the major axis is called the minor axis. Length (in pixels) of the minor axis is the smallest line connecting a pair of points on the contour.
-Perimeter: Number of pixels around the border of the region.
-Centroid: Centre of mass of the region. It is a measure of object’s location in the image.
-Area: Total number of pixels in a region/shape.
-microorganisms : [Spirogyra, Volvox, Pithophora, Yeast, Raizopus, Penicillum, Aspergillus sp, Protozoa, Diatom, Ulothrix]
+* Solidity: It is the ratio of area of an object to the area of a convex hull of the object. Computed as Area/ConvexArea.
+* Eccentricity: The eccentricity is the ratio of length of major to minor axis of an object.
+* EquivDiameter: Diameter of a circle with the same area as the region.
+* Extrema: Extrema points in the region. The format of the vector is [top-left top-right right-top right-bottom bottom-right bottom-left left-bottom left-top].
+* Filled Area: Number of on pixels in FilledImage, returned as a scalar.
+* Extent: Ratio of the pixel area of a region with respect to the bounding box area of an object.
+* Orientation: The overall direction of the shape. The value ranges from -90 degrees to 90 degrees.
+* Euler number: Number of objects in the region minus the number of holes in those objects.
+* Bounding box: Position and size of the smallest box (rectangle) which bounds the object.
+* Convex hull: Smallest convex shape/polygon that contains the object.
+* Major axis: The major axis is the endpoints of the longest line that can be drawn through the object. Length (in pixels) of the major axis is the largest dimension of the object.
+* Minor axis: The axis perpendicular to the major axis is called the minor axis. Length (in pixels) of the minor axis is the smallest line connecting a pair of points on the contour.
+* Perimeter: Number of pixels around the border of the region.
+* Centroid: Centre of mass of the region. It is a measure of object’s location in the image.
+* Area: Total number of pixels in a region/shape.
+* microorganisms : [Spirogyra, Volvox, Pithophora, Yeast, Raizopus, Penicillum, Aspergillus sp, Protozoa, Diatom, Ulothrix]
