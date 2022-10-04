@@ -90,7 +90,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed with ❤ by Omji</p>
+<p>Developed with ❤ by Omji <a href="https://github.com/omjiverma/Microbes-Identification-with-Machine-Learning/blob/main/test_data.csv">Get Test Data</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
