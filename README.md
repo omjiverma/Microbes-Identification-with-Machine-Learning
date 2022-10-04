@@ -26,5 +26,7 @@
   * Decision Tree Classifier
   * Random Forest Classifier
   * XGBOOST Classifier
-  * Features Selection 
-  * Model Deployment with Streamlitm
+  * Features Selection with XGBOOST
+  * Training XGBOOST with Best 6 Features
+* Saving Model Weights
+* XGBOOST Model Deployment with Streamlitm
