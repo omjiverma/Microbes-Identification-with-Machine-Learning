@@ -17,6 +17,7 @@
 * Objective
 * Data Summary
 * Approach
+* Packages Import
 * Exploratory Data Analysis
 * Data Visualization
 * Data Preprocessing
@@ -65,3 +66,52 @@ Identify the ten different micro-forms of life from Generalized Segmentation Alg
 * Centroid: Centre of mass of the region. It is a measure of object’s location in the image.
 * Area: Total number of pixels in a region/shape.
 * microorganisms : [Spirogyra, Volvox, Pithophora, Yeast, Raizopus, Penicillum, Aspergillus sp, Protozoa, Diatom, Ulothrix]
+
+## 🛬 Approach
+* Supervised Learning
+* Classification
+* Multi-class Classification
+
+## Packages Import
+ Imported all the required packages
+ 
+## Exploratory Data Analysis
+ * No Null Values are Found in dataset
+ * Almost all columns are of float datatype
+ * Rows in dataset :  30527
+ * Columns in dataset :  25
+ * Descrptive Stats : Min , Max, Mean and Std are obtained with pandas describe method
+ * Distribution plots
+## Data Preprocessing
+
+ * Seprating input and output columns
+ * Splitting Dataframe into Input and Target dataframe
+ * Train, Validation and Test Split
+ * Data Normalization
+
+## ML Modelling
+
+### Logistic Regression
+### Naive Bayes
+### Decision Tree Classifier
+    * Hyper Parameter Tunning for Decision Tree Classifier
+    * Decision Tree visualization
+    * Feature Importance
+### Random Forest Classifier
+    * Feature Importance
+### XGBOOST Classifier
+    * Label Encoding target column
+### Models Accuracy on Test Data
+   * DTC1 Accuracy :  0.9865125240847784
+   * RFC Accuracy :   0.9884393063583815
+   * XGB Accuracy :  0.9922928709055877
+
+### Features Selection with XGBOOST
+    * Top 6 Features :  'ConvexArea', 'raddi', 'FilledArea', 'MinorAxisLength', 'Perimeter', 'Solidity'
+### Training XGB with Top 6 Features only
+
+### Saving Model 
+Model  and label encoder are saved using joblib library
+
+### Web Deployed App Link
+<a href="https://omjiverma-microbes-identi-microbes-identification-webapp-qh6iaz.streamlitapp.com/">Open Webbapp</a>
