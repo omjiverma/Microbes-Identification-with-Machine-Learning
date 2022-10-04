@@ -25,16 +25,16 @@ with st.container():
 with st.container():    
     col1, col2, col3 = st.columns(3)
     with col1:
-        convex_area = st.number_input('Convex Area')
-        raddi = st.number_input('Raddi')
+        convex_area = st.number_input('Convex Area' ,format='%0.7f')
+        raddi = st.number_input('Raddi',format='%0.7f')
 
     with col2:
-        filled_area = st.number_input('Filled Area')
-        minor_axis_length = st.number_input('Minor Axis Length')
+        filled_area = st.number_input('Filled Area',format='%0.7f')
+        minor_axis_length = st.number_input('Minor Axis Length',format='%0.7f')
 
     with col3:
-        perimeter = st.number_input('Perimeter')
-        solidity = st.number_input('Solidity')
+        perimeter = st.number_input('Perimeter',format='%0.7f')
+        solidity = st.number_input('Solidity',format='%0.7f')
 
 
 
