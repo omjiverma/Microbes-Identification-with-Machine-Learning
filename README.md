@@ -82,6 +82,7 @@ Identify the ten different micro-forms of life from Generalized Segmentation Alg
  * Columns in dataset :  25
  * Descrptive Stats : Min , Max, Mean and Std are obtained with pandas describe method
  * Distribution plots
+   <img src='plots/distributions.png'>
 ## Data Preprocessing
 
  * Seprating input and output columns
