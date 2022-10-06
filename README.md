@@ -180,4 +180,5 @@ Model  and label encoder are saved using joblib library to retrieve the the trai
 
 
 ### Web Deployed App Link
+<img src='plots/webapp.png'>
 <a href="https://omjiverma-microbes-identi-microbes-identification-webapp-qh6iaz.streamlitapp.com/">Open Webbapp</a>
